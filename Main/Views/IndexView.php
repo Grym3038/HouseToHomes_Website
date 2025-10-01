@@ -18,7 +18,7 @@
             </a> 
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex rounded-2xl">
-            <img src="Lib/Images/DSC_9048.jpg" alt="mockup" class="rounded-2xl drop-shadow-sm">
+            <img src="/Lib/Images/DSC_9048.jpg" alt="DSC_9048.jpg" class="rounded-2xl drop-shadow-sm">
         </div>                
     </div>
 </section>

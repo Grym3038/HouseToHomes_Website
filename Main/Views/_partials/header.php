@@ -11,10 +11,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>House To Home Solutions</title>
-    <link href="Lib\Images\Logo_Black.png" rel="icon" media="(prefers-color-scheme: light)">
-    <link href="Lib\Images\Logo_White.png" rel="icon" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="../src/output.css?v=2" />
-    <link rel="stylesheet" href="Lib/CSS/styles.css">
+    <link href="/Lib/Images/Logo_Black.png" rel="icon" media="(prefers-color-scheme: light)">
+    <link href="/Lib/Images/Logo_White.png" rel="icon" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="/src/output.css?v=2" />
+    <link rel="stylesheet" href="/Lib/CSS/styles.css">
     
     
 </head>
@@ -24,7 +24,7 @@
     <nav class="top-0 flex w-full py-5 bg-myNav caret-transparent  ">
         <div class="shrink  px-2 w-20">
             <a href="?action=home">
-                <img src="Lib/Images/Logo_Black.png" alt="Logo" class="inline shrink max-w-12 logo-purple">
+                <img src="/Lib/Images/Logo_Black.png" alt="Logo" class="inline shrink max-w-12 logo-purple">
             </a>
         </div>
     <div class="flex right-0 py-2 w-80  md:w-6/7 lg:w-6/7 justify-evenly  text-md  md:text-xl lg:text-xl font-bold ">

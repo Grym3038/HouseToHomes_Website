@@ -13,7 +13,7 @@
     </p>
   </div>
   <div class="col-span-3 md:col-span-2 lg:col-span-2 lg:order-1 w-full p-4 px-5 ">
-    <img class="rounded-2xl h-[30rem] w-full md:w-[80%] lg:w-[100%] object-cover shadow-md" src="Lib\Images\DSC_8913.jpg" alt="DSC_8913.jpg">
+    <img class="rounded-2xl h-[30rem] w-full md:w-[80%] lg:w-[100%] object-cover shadow-md" src="/Lib/Images/DSC_8913.jpg" alt="DSC_8913.jpg">
   </div>
   <div class=" lg:order-3 p-4 col-span-3 md:col-span-2 lg:col-span-2 justify-items-center content-center py-20 mb-20 " style="padding-bottom:200px">
     <h1 class="text-6xl">Our Mission</h1>
@@ -24,7 +24,7 @@
     </p> 
   </div>
   <div class=" hidden md:block lg:block lg:order-4 p-4 relative  w-full">
-    <img class="absolute top-0 left-0 md:top-0 lg:top-[-2rem] md:left-0 lg:left-[-5%] shadow-md rounded-2xl h-[40rem] w-[50rem] object-cover " src="Lib\Images\OurMission.jpg" alt="DSC_8844.jpg">
+    <img class="absolute top-0 left-0 md:top-0 lg:top-[-2rem] md:left-0 lg:left-[-5%] shadow-md rounded-2xl h-[40rem] w-[50rem] object-cover " src="/Lib/Images/OurMission.jpg" alt="DSC_8844.jpg">
   </div>
     <!-- Dark Tan bar -->
 <!-- 

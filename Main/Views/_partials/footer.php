@@ -4,7 +4,6 @@
  * Purpose: To provide a footer for all pages of the application
  */
 ?>
-<script src="..\node_modules\flowbite\dist\flowbite.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
     <footer class="flex absolute bottom-0 py-5 w-full justify-center bg-myFooter">
@@ -13,7 +12,7 @@
 
         <div class="text-center">
             <a href="?action=home" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
-                <img src="Lib\Images\Logo_No_Background.png" class="h-12 mr-3 sm:h-9" alt="Landwind Logo">
+                <img src="/Lib/Images/Logo_No_Background.png" class="h-12 mr-3 sm:h-9" alt="Landwind Logo">
                 House To Home Solutions
             </a>
 

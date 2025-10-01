@@ -10,9 +10,9 @@ $client = new \Google_Client();
 $client->setApplicationName('Google Sheet for schedule');
 $client->setScopes([\Google_Service_Sheets::SPREADSHEETS]);
 $client->setAccessType('offline');
-$client->setAuthConfig('../../credentials.json');
+$client->setAuthConfig('/var/www/HouseToHomes_Website/credentials.json');
 $service = new Google_Service_Sheets($client);
-$spreadsheetID = "1q8P33RtFz-A1963pJ_wqPAsK4AcSA4WyefqOO4AChbs";
+$spreadsheetID = "1LSTfVZs9lNUZMB5AOQP-DQMsDJlxOsk5Dqk1pJ53cNI";
 
 $TopParagraphRange = "IndexPage!C3:C23";
 $ServiceCardInfoRange = "IndexPage!E3:F23";

@@ -43,7 +43,7 @@ class FormValidator
             'alfanum' => "^[0-9a-zA-Z ,.-_\\s\?\!]+\$",
             'not_empty' => "[a-z0-9A-Z]+",
             'words' => "^[A-Za-z]+[A-Za-z \\s]*\$",
-            'phone' => "^[0-9]{10,11}\$",
+	    'phone' => '^\+?1?[-. (]*\d{3}[-. )]*\d{3}[-. ]*\d{4}$',
             'zipcode' => "^[1-9][0-9]{3}[a-zA-Z]{2}\$",
             'plate' => "^([0-9a-zA-Z]{2}[-]){2}[0-9a-zA-Z]{2}\$",
             'price' => "^[0-9.,]*(([.,][-])|([.,][0-9]{2}))?\$",
@@ -54,10 +54,10 @@ class FormValidator
     private $validations, $sanitations, $mandatories, $errors, $corrects, $fields;
     
 
-    public function __construct($validations=array(), $mandatories = array(), $sanatations = array())
+    public function __construct($validations=array(), $mandatories = array(), $sanitations = array())
     {
         $this->validations = $validations;
-        $this->sanitations = $sanatations;
+        $this->sanitations = $sanitations;
         $this->mandatories = $mandatories;
         $this->errors = array();
         $this->corrects = array();
